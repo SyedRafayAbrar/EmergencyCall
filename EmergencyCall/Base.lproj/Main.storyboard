@@ -30,20 +30,48 @@
                                 <color key="textColor" red="1" green="0.0099468241870000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo-3" translatesAutoresizingMaskIntoConstraints="NO" id="6td-uz-Jhe">
+                                <rect key="frame" x="88" y="233" width="200" height="200"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xOo-YQ-SEP">
+                                <rect key="frame" x="16" y="605" width="343" height="42"/>
+                                <color key="backgroundColor" red="0.85098039215686272" green="0.043137254901960784" blue="0.0039215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Continue with Mobile Number">
+                                    <color key="titleColor" red="0.99323965420243354" green="1" blue="0.99704160533019826" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xMX-Vw-MQ0"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Xrg-Ta-mvW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="22" id="0q8-lg-L6O"/>
+                            <constraint firstItem="6td-uz-Jhe" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" constant="-467" id="24W-3t-6LB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="xOo-YQ-SEP" secondAttribute="bottom" constant="20" id="M9J-js-wzg"/>
                             <constraint firstItem="Xrg-Ta-mvW" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="PKz-Ww-Z2o"/>
+                            <constraint firstItem="6td-uz-Jhe" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" constant="-175" id="dbz-M6-VcW"/>
                             <constraint firstItem="4C7-Lp-a0K" firstAttribute="centerX" secondItem="Xrg-Ta-mvW" secondAttribute="centerX" id="ebE-FY-3aL"/>
                             <constraint firstItem="4C7-Lp-a0K" firstAttribute="top" secondItem="Xrg-Ta-mvW" secondAttribute="bottom" constant="8" id="ieE-53-x54"/>
+                            <constraint firstItem="6td-uz-Jhe" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="jkc-3y-Rgw"/>
+                            <constraint firstItem="xOo-YQ-SEP" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="k8T-6w-r8E"/>
+                            <constraint firstItem="xOo-YQ-SEP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="lPN-uw-9PX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xOo-YQ-SEP" secondAttribute="trailing" constant="16" id="prB-kh-YrV"/>
+                            <constraint firstItem="6td-uz-Jhe" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="-10.5" id="wPy-7e-ZKi"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="continueWith" destination="xOo-YQ-SEP" id="0ZH-E2-Xue"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="logo-3" width="280" height="280"/>
+    </resources>
 </document>
