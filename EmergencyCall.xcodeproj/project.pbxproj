@@ -12,9 +12,16 @@
 		C8C83C2520AD5644006C8C8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8C83C2320AD5644006C8C8F /* Main.storyboard */; };
 		C8C83C2720AD5645006C8C8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8C83C2620AD5645006C8C8F /* Assets.xcassets */; };
 		C8C83C2A20AD5645006C8C8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8C83C2820AD5645006C8C8F /* LaunchScreen.storyboard */; };
+		C8C83C3220AD5D9A006C8C8F /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C83C3120AD5D9A006C8C8F /* SignInViewController.swift */; };
+		C8C83C3420AD6D15006C8C8F /* HelperFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C83C3320AD6D15006C8C8F /* HelperFile.swift */; };
+		C8C83C3720AD6FD3006C8C8F /* CountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C83C3520AD6FD3006C8C8F /* CountryTableViewCell.swift */; };
+		C8C83C3820AD6FD3006C8C8F /* CountryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8C83C3620AD6FD3006C8C8F /* CountryTableViewCell.xib */; };
+		D99B6CDC78E9AEAE0911BDC6 /* Pods_EmergencyCall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EC823EFF1D882E7776D4319 /* Pods_EmergencyCall.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1EC823EFF1D882E7776D4319 /* Pods_EmergencyCall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmergencyCall.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		583136DC1F6369C6B0CF3F93 /* Pods-EmergencyCall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmergencyCall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EmergencyCall/Pods-EmergencyCall.debug.xcconfig"; sourceTree = "<group>"; };
 		C8C83C1C20AD5644006C8C8F /* EmergencyCall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmergencyCall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8C83C1F20AD5644006C8C8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C8C83C2120AD5644006C8C8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,11 @@
 		C8C83C2620AD5645006C8C8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8C83C2920AD5645006C8C8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C8C83C2B20AD5645006C8C8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8C83C3120AD5D9A006C8C8F /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		C8C83C3320AD6D15006C8C8F /* HelperFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperFile.swift; sourceTree = "<group>"; };
+		C8C83C3520AD6FD3006C8C8F /* CountryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryTableViewCell.swift; sourceTree = "<group>"; };
+		C8C83C3620AD6FD3006C8C8F /* CountryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountryTableViewCell.xib; sourceTree = "<group>"; };
+		CC34349CF535BCB3E2CC647C /* Pods-EmergencyCall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmergencyCall.release.xcconfig"; path = "Pods/Target Support Files/Pods-EmergencyCall/Pods-EmergencyCall.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D99B6CDC78E9AEAE0911BDC6 /* Pods_EmergencyCall.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DBBD7898B3038B986C7CE53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1EC823EFF1D882E7776D4319 /* Pods_EmergencyCall.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		732247D7BE9FABC6531001B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				583136DC1F6369C6B0CF3F93 /* Pods-EmergencyCall.debug.xcconfig */,
+				CC34349CF535BCB3E2CC647C /* Pods-EmergencyCall.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C8C83C1320AD5643006C8C8F = {
 			isa = PBXGroup;
 			children = (
 				C8C83C1E20AD5644006C8C8F /* EmergencyCall */,
 				C8C83C1D20AD5644006C8C8F /* Products */,
+				732247D7BE9FABC6531001B8 /* Pods */,
+				0DBBD7898B3038B986C7CE53 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +87,25 @@
 			isa = PBXGroup;
 			children = (
 				C8C83C1F20AD5644006C8C8F /* AppDelegate.swift */,
+				C8C83C3320AD6D15006C8C8F /* HelperFile.swift */,
 				C8C83C2120AD5644006C8C8F /* ViewController.swift */,
+				C8C83C3920AD71D3006C8C8F /* Countrycell */,
 				C8C83C2320AD5644006C8C8F /* Main.storyboard */,
+				C8C83C3120AD5D9A006C8C8F /* SignInViewController.swift */,
 				C8C83C2620AD5645006C8C8F /* Assets.xcassets */,
 				C8C83C2820AD5645006C8C8F /* LaunchScreen.storyboard */,
 				C8C83C2B20AD5645006C8C8F /* Info.plist */,
 			);
 			path = EmergencyCall;
+			sourceTree = "<group>";
+		};
+		C8C83C3920AD71D3006C8C8F /* Countrycell */ = {
+			isa = PBXGroup;
+			children = (
+				C8C83C3520AD6FD3006C8C8F /* CountryTableViewCell.swift */,
+				C8C83C3620AD6FD3006C8C8F /* CountryTableViewCell.xib */,
+			);
+			path = Countrycell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +115,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C8C83C2E20AD5645006C8C8F /* Build configuration list for PBXNativeTarget "EmergencyCall" */;
 			buildPhases = (
+				7C1DE834E8CC8BD44CA703A7 /* [CP] Check Pods Manifest.lock */,
 				C8C83C1820AD5644006C8C8F /* Sources */,
 				C8C83C1920AD5644006C8C8F /* Frameworks */,
 				C8C83C1A20AD5644006C8C8F /* Resources */,
+				2EB65268EBD5F48E6C0C04C2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,6 +168,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8C83C3820AD6FD3006C8C8F /* CountryTableViewCell.xib in Resources */,
 				C8C83C2A20AD5645006C8C8F /* LaunchScreen.storyboard in Resources */,
 				C8C83C2720AD5645006C8C8F /* Assets.xcassets in Resources */,
 				C8C83C2520AD5644006C8C8F /* Main.storyboard in Resources */,
@@ -130,6 +177,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2EB65268EBD5F48E6C0C04C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EmergencyCall/Pods-EmergencyCall-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MRCountryPicker/MRCountryPicker.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MRCountryPicker.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EmergencyCall/Pods-EmergencyCall-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C1DE834E8CC8BD44CA703A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EmergencyCall-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C8C83C1820AD5644006C8C8F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -137,6 +223,9 @@
 			files = (
 				C8C83C2220AD5644006C8C8F /* ViewController.swift in Sources */,
 				C8C83C2020AD5644006C8C8F /* AppDelegate.swift in Sources */,
+				C8C83C3220AD5D9A006C8C8F /* SignInViewController.swift in Sources */,
+				C8C83C3420AD6D15006C8C8F /* HelperFile.swift in Sources */,
+				C8C83C3720AD6FD3006C8C8F /* CountryTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +367,7 @@
 		};
 		C8C83C2F20AD5645006C8C8F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 583136DC1F6369C6B0CF3F93 /* Pods-EmergencyCall.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +386,7 @@
 		};
 		C8C83C3020AD5645006C8C8F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC34349CF535BCB3E2CC647C /* Pods-EmergencyCall.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

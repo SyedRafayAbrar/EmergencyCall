@@ -1,0 +1,16 @@
+PODS:
+  - MRCountryPicker (0.0.7)
+
+DEPENDENCIES:
+  - MRCountryPicker
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MRCountryPicker
+
+SPEC CHECKSUMS:
+  MRCountryPicker: 75edb510153ef446ded70890bc02140a757961dc
+
+PODFILE CHECKSUM: fac3c152c6062f422778074cc885bb5617b226be
+
+COCOAPODS: 1.5.2
