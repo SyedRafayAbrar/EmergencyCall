@@ -20,9 +20,6 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cw3-AU-14z">
-                        <rect key="frame" x="6" y="0.0" width="44" height="44"/>
-                    </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4lE-qc-p1R">
                         <rect key="frame" x="58" y="0.0" width="204" height="44"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -35,11 +32,18 @@
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rHo-4t-U2g">
+                        <rect key="frame" x="8" y="3" width="42" height="36"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
                 </subviews>
                 <constraints>
+                    <constraint firstItem="rHo-4t-U2g" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="52S-QU-F0d"/>
                     <constraint firstItem="8kW-tz-WPb" firstAttribute="leading" secondItem="4lE-qc-p1R" secondAttribute="trailing" id="5Em-Nn-g1O"/>
                     <constraint firstItem="4lE-qc-p1R" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="58" id="C1R-rk-P6n"/>
-                    <constraint firstItem="cw3-AU-14z" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="6" id="EV7-yr-8pJ"/>
+                    <constraint firstAttribute="bottom" secondItem="rHo-4t-U2g" secondAttribute="bottom" constant="4.5" id="EKH-U9-qJa"/>
                     <constraint firstItem="8kW-tz-WPb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="MpY-Oo-w5D"/>
                     <constraint firstItem="8kW-tz-WPb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="Wxi-3T-v9f"/>
                     <constraint firstAttribute="bottom" secondItem="4lE-qc-p1R" secondAttribute="bottom" id="YkN-Tn-aMb"/>
@@ -48,15 +52,16 @@
                     <constraint firstItem="8kW-tz-WPb" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" id="j6x-JP-DaC"/>
                     <constraint firstItem="4lE-qc-p1R" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="j8r-Fc-z00"/>
                     <constraint firstItem="4lE-qc-p1R" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="kFs-dv-MYn"/>
-                    <constraint firstItem="cw3-AU-14z" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="mwD-Gp-30s"/>
+                    <constraint firstItem="rHo-4t-U2g" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="3" id="p7e-d2-Eyj"/>
                     <constraint firstItem="8kW-tz-WPb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="wer-DH-K6c"/>
-                    <constraint firstItem="4lE-qc-p1R" firstAttribute="leading" secondItem="cw3-AU-14z" secondAttribute="trailing" constant="8" id="xwb-ul-E0Y"/>
                 </constraints>
             </tableViewCellContentView>
-            <constraints>
-                <constraint firstItem="njF-e1-oar" firstAttribute="bottom" secondItem="cw3-AU-14z" secondAttribute="bottom" id="zrK-2V-qcx"/>
-            </constraints>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="CountryName" destination="4lE-qc-p1R" id="eaO-fW-4Ap"/>
+                <outlet property="code" destination="8kW-tz-WPb" id="ZJ5-vc-Q9k"/>
+                <outlet property="imgView" destination="rHo-4t-U2g" id="H6W-k1-Yls"/>
+            </connections>
         </tableViewCell>
     </objects>
 </document>

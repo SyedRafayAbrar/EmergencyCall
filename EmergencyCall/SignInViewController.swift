@@ -7,28 +7,44 @@
 //
 
 import UIKit
+import MRCountryPicker
+import CountryPicker
 
-class SignInViewController: UIViewController,UITableViewDelegate {
-var countries: [String] = []
-    @IBOutlet weak var table: UITableView!
+class SignInViewController: UIViewController, CountryPickerDelegate{
+  
+    
+    @IBOutlet weak var codeLbl: UILabel!
+    @IBOutlet weak var countryPicker: MRCountryPicker!
     @IBOutlet weak var txtArer: UITextField!
+    @IBOutlet weak var img: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-       
+        let locale = Locale.current
+        let code = (locale as NSLocale).object(forKey: NSLocale.Key.countryCode) as! String?
+
 
         // Do any additional setup after loading the view.
     }
     override func viewDidAppear(_ animated: Bool) {
-         cName()
-        table.reloadData()
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    func countryPhoneCodePicker(_ picker: CountryPicker, didSelectCountryWithName name: String, countryCode: String, phoneCode: String, flag: UIImage) {
+        self.img.image = flag
+        self.codeLbl.text = phoneCode
+        
+    }
+  
     
-
+    func countryPhoneCodePicker(_ picker: MRCountryPicker, didSelectCountryWithName name: String, countryCode: String, phoneCode: String, flag: UIImage) {
+   self.img.image = flag
+        self.codeLbl.text = phoneCode
+    }
     /*
     // MARK: - Navigation
 
@@ -39,35 +55,6 @@ var countries: [String] = []
     }
     */
 
-}
-extension SignInViewController:UITableViewDataSource{
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return countries.count
-    }
-    
- 
-    
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-       let tempCell = UITableViewCell(style: .default, reuseIdentifier: "cell")
-        tempCell.textLabel?.text! = countries[indexPath.row]
-        
-        return tempCell
-        
-    }
-    
-    
-}
-
-extension SignInViewController{
-    func cName() {
-        
-        for code in NSLocale.isoCountryCodes as [String] {
-            let id = NSLocale.localeIdentifier(fromComponents: [NSLocale.Key.countryCode.rawValue: code])
-            let name = NSLocale(localeIdentifier: "en_UK").displayName(forKey: NSLocale.Key.identifier, value: id) ?? "Country not found for code: \(code)"
-            countries.append(name)
-        }
-        
-        print(countries)
-    }
+  
+   
 }

@@ -27,6 +27,5 @@ class ViewController: UIViewController {
         performSegue(withIdentifier: "toSignIn", sender: nil)
     }
 
-    
 }
 

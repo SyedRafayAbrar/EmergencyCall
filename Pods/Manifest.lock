@@ -1,16 +1,20 @@
 PODS:
+  - CountryPickerSwift (1.4.5)
   - MRCountryPicker (0.0.7)
 
 DEPENDENCIES:
+  - CountryPickerSwift
   - MRCountryPicker
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - CountryPickerSwift
     - MRCountryPicker
 
 SPEC CHECKSUMS:
+  CountryPickerSwift: be2cf0dc41887d8b16ea65ae263a70adb0cc953a
   MRCountryPicker: 75edb510153ef446ded70890bc02140a757961dc
 
-PODFILE CHECKSUM: fac3c152c6062f422778074cc885bb5617b226be
+PODFILE CHECKSUM: 300e365e9906b7928273c006c444e42cc04e1cef
 
 COCOAPODS: 1.5.2

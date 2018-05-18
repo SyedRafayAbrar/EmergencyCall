@@ -7,5 +7,5 @@ target 'EmergencyCall' do
 
   # Pods for EmergencyCall
 pod 'MRCountryPicker'
-
+pod 'CountryPickerSwift'
 end

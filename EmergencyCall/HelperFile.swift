@@ -7,3 +7,5 @@
 //
 
 import Foundation
+var country:[String : Any] = ["Name":"","Code":"","Image":AnyObject.self]
+var Countries = [country]

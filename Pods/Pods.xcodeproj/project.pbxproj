@@ -7,21 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0097259D9C376EE06C03A1058A4467A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		0C188D42B63B7BB1783A222E6233C8E4 /* MRCountryPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CDD876461B1C04F21823CAE7C1C549 /* MRCountryPicker-dummy.m */; };
-		2B5D33E4A9E8D82DAD29C7B64F5F0AEE /* SwiftCountryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94E25B385268D031DB91B08E014C9F5 /* SwiftCountryPicker.swift */; };
-		5B8DFBE94007DBFBFA98EAFEE16E60F5 /* Pods-EmergencyCall-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0624193DF47F861BF2C462AC4DF646F0 /* Pods-EmergencyCall-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5E13C37C2EBF04CCE875E8F15E626437 /* Data in Resources */ = {isa = PBXBuildFile; fileRef = 8262471237D0DF7EF23F6BE2F317F3E6 /* Data */; };
-		5E9BB8EDC7FBEEAF43C6333B57A57AF0 /* Pods-EmergencyCall-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E013272169379BE19BF7655543A2444F /* Pods-EmergencyCall-dummy.m */; };
+		0C188D42B63B7BB1783A222E6233C8E4 /* MRCountryPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE57A18FD65DA5CCCBF310AAC530BC0A /* MRCountryPicker-dummy.m */; };
+		0EB579FACF51C8E9262C550520B417B3 /* Data in Resources */ = {isa = PBXBuildFile; fileRef = 40D31AD5D5BE56522DB54AD22BC1FCCD /* Data */; };
+		26BF5AF9A3C535B0D3145703B8ED7A8D /* Pods-EmergencyCall-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E013272169379BE19BF7655543A2444F /* Pods-EmergencyCall-dummy.m */; };
+		2B5D33E4A9E8D82DAD29C7B64F5F0AEE /* SwiftCountryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4AB6D0A6180BF6B1486231202A8FA2 /* SwiftCountryPicker.swift */; };
+		446EE3AEFDF2F15A124F995B27377983 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		56FC39F4F9DE9F6A296C93C3D095D774 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		57FACD589B336C0E5FC8F687DF65E538 /* CountryPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CDC557C4C8DE205D9D7678FEA15DDC38 /* CountryPicker.bundle */; };
+		5E13C37C2EBF04CCE875E8F15E626437 /* Data in Resources */ = {isa = PBXBuildFile; fileRef = C2BB5750FEB794A265941CC41DC43CF8 /* Data */; };
+		6EC9566670A495905D9177EF70E641AF /* CountryPickerSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D8E6891A4E5291FE7BFBDE00A81E79F5 /* CountryPickerSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72BDBC5C3293B4AF0B121E9FD27E4FD1 /* CountryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A603BA1809505B3AD1629D3E1A08A1B /* CountryView.swift */; };
+		7A2505CE706504238316375E3AAE528A /* CountryView.xib in Sources */ = {isa = PBXBuildFile; fileRef = A281B35A7EBA1C02A6A1FA125A8BB90F /* CountryView.xib */; };
+		82B1AFADFB310B7F7DA6F4BB56791065 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 6505D1618CDC429393C524062E5B1C37 /* Images */; };
+		871F1295564B2DC8F04701C530EFC027 /* Pods-EmergencyCall-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0624193DF47F861BF2C462AC4DF646F0 /* Pods-EmergencyCall-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		949E8A7CFA24E8186291DF7F69E13C54 /* CountryPickerSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0135FA64DC25701B592C38FB2A79A18 /* CountryPickerSwift-dummy.m */; };
 		AAB6BA361676131D70CE00915EC77CB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		CE654238210C4781C47D59A4CC6104E8 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 592402FF49D0B1A8865B8D513990102D /* Images */; };
-		CFFB7D67F6CCEF5DB0E6B90676313B2A /* SwiftCountryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A7F42F717421DB50A508E56A6B418B /* SwiftCountryView.swift */; };
-		E4C03843830E2069D453A625C45914FC /* MRCountryPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E845655F2D898FEAC8A91D9F23DD73E /* MRCountryPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EEB7411C16E770FCFCF1688A337E2A43 /* SwiftCountryPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 93F8B331EAE9A39AF0887B539873E5E7 /* SwiftCountryPicker.bundle */; };
-		F711402C9B43DFE4446EE1453FE1E3A2 /* SwiftCountryView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 0CEECD22C043D4A21EE1F02C8764AB1B /* SwiftCountryView.xib */; };
+		CE654238210C4781C47D59A4CC6104E8 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 626A2948A0337500255BEBD7167B70EA /* Images */; };
+		CFFB7D67F6CCEF5DB0E6B90676313B2A /* SwiftCountryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC368C6E3E30CBF09F7FED2B24A541D /* SwiftCountryView.swift */; };
+		DF93149F959F779B2F7AE50E8EAD1C26 /* CountryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710AEB907F616F795C7E397795B60C86 /* CountryPicker.swift */; };
+		E4C03843830E2069D453A625C45914FC /* MRCountryPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 219B55D214B38FBF305523B5C905D3C0 /* MRCountryPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEB7411C16E770FCFCF1688A337E2A43 /* SwiftCountryPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 59225E16DE6D8331C6DD1CCB75A9F56B /* SwiftCountryPicker.bundle */; };
+		F711402C9B43DFE4446EE1453FE1E3A2 /* SwiftCountryView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 3EFFFF7A2C3115CEAB0A221EF00CEC4F /* SwiftCountryView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		39A71A6EA6F1B8759619054945326A29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F0837541784AB173CB811F2D4D93865;
+			remoteInfo = MRCountryPicker;
+		};
+		552D0465D5C46C72D01884CC7363C9A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B9A544927D9ED12AD3F9525E2E37D39;
+			remoteInfo = CountryPickerSwift;
+		};
 		780F5ED0CC12DEEAEB624526B733A01C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -29,59 +52,72 @@
 			remoteGlobalIDString = A7C206C042D404F93B93041BC6094351;
 			remoteInfo = "MRCountryPicker-SwiftCountryPicker";
 		};
-		A4F18465E08A0FC990702507EEF7256B /* PBXContainerItemProxy */ = {
+		DC6774386D49D019B6588977C84D0F41 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4F0837541784AB173CB811F2D4D93865;
-			remoteInfo = MRCountryPicker;
+			remoteGlobalIDString = C0E5A851C6CE6EF8E4966C457FDE009D;
+			remoteInfo = "CountryPickerSwift-CountryPicker";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0624193DF47F861BF2C462AC4DF646F0 /* Pods-EmergencyCall-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EmergencyCall-umbrella.h"; sourceTree = "<group>"; };
-		0CEECD22C043D4A21EE1F02C8764AB1B /* SwiftCountryView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = SwiftCountryView.xib; path = MRCountryPicker/Classes/SwiftCountryView.xib; sourceTree = "<group>"; };
+		06424F91635A60F17E6BEC2CABCA9CDB /* ResourceBundle-SwiftCountryPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SwiftCountryPicker-Info.plist"; sourceTree = "<group>"; };
 		12FDDA10E5AF330B46A8507FB823BF3F /* Pods-EmergencyCall-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EmergencyCall-frameworks.sh"; sourceTree = "<group>"; };
-		1E845655F2D898FEAC8A91D9F23DD73E /* MRCountryPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MRCountryPicker-umbrella.h"; sourceTree = "<group>"; };
+		219B55D214B38FBF305523B5C905D3C0 /* MRCountryPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MRCountryPicker-umbrella.h"; sourceTree = "<group>"; };
 		2A1C61190479A5E00CEA016279116BA5 /* Pods-EmergencyCall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EmergencyCall.debug.xcconfig"; sourceTree = "<group>"; };
-		31017B0470748BD59BA9D04026DBC390 /* MRCountryPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MRCountryPicker.xcconfig; sourceTree = "<group>"; };
-		36AB6D64C57500B5A98996145A12C894 /* ResourceBundle-SwiftCountryPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SwiftCountryPicker-Info.plist"; sourceTree = "<group>"; };
-		373F1C4FF377F3DAF22BA8447BA52EA6 /* Pods_EmergencyCall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EmergencyCall.framework; path = "Pods-EmergencyCall.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		48FE36C9DAA20DF52E7B7990A6D849E9 /* MRCountryPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MRCountryPicker.framework; path = MRCountryPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		592402FF49D0B1A8865B8D513990102D /* Images */ = {isa = PBXFileReference; includeInIndex = 1; name = Images; path = MRCountryPicker/Assets/SwiftCountryPicker.bundle/Images; sourceTree = "<group>"; };
+		2F4AB6D0A6180BF6B1486231202A8FA2 /* SwiftCountryPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftCountryPicker.swift; path = MRCountryPicker/Classes/SwiftCountryPicker.swift; sourceTree = "<group>"; };
+		3A603BA1809505B3AD1629D3E1A08A1B /* CountryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CountryView.swift; path = CountryPicker/Classes/CountryView.swift; sourceTree = "<group>"; };
+		3EFFFF7A2C3115CEAB0A221EF00CEC4F /* SwiftCountryView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = SwiftCountryView.xib; path = MRCountryPicker/Classes/SwiftCountryView.xib; sourceTree = "<group>"; };
+		40D31AD5D5BE56522DB54AD22BC1FCCD /* Data */ = {isa = PBXFileReference; includeInIndex = 1; name = Data; path = CountryPicker/Assets/CountryPicker.bundle/Data; sourceTree = "<group>"; };
+		428E4890D17599042900284C747C3807 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		577FEDFC6BFBAF6F0D15DAB841F0EBCE /* MRCountryPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MRCountryPicker.framework; path = MRCountryPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59225E16DE6D8331C6DD1CCB75A9F56B /* SwiftCountryPicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SwiftCountryPicker.bundle; path = "MRCountryPicker-SwiftCountryPicker.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		69A7F42F717421DB50A508E56A6B418B /* SwiftCountryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftCountryView.swift; path = MRCountryPicker/Classes/SwiftCountryView.swift; sourceTree = "<group>"; };
+		626A2948A0337500255BEBD7167B70EA /* Images */ = {isa = PBXFileReference; includeInIndex = 1; name = Images; path = MRCountryPicker/Assets/SwiftCountryPicker.bundle/Images; sourceTree = "<group>"; };
+		63DF903AEFDF9909F4FF886D1EAE6BDF /* CountryPickerSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CountryPickerSwift.xcconfig; sourceTree = "<group>"; };
+		6505D1618CDC429393C524062E5B1C37 /* Images */ = {isa = PBXFileReference; includeInIndex = 1; name = Images; path = CountryPicker/Assets/CountryPicker.bundle/Images; sourceTree = "<group>"; };
 		6A543E99FC035853AC08A919059F9B66 /* Pods-EmergencyCall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EmergencyCall.release.xcconfig"; sourceTree = "<group>"; };
-		7DC8FCF0C3EC7F56795C65FC22AEA7DE /* MRCountryPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MRCountryPicker.modulemap; sourceTree = "<group>"; };
-		8262471237D0DF7EF23F6BE2F317F3E6 /* Data */ = {isa = PBXFileReference; includeInIndex = 1; name = Data; path = MRCountryPicker/Assets/SwiftCountryPicker.bundle/Data; sourceTree = "<group>"; };
+		710AEB907F616F795C7E397795B60C86 /* CountryPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CountryPicker.swift; path = CountryPicker/Classes/CountryPicker.swift; sourceTree = "<group>"; };
+		78B68459C6E736859670C983866DC157 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F3D74D198BB7F9284155D725B60FC81 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9049A339E00F54792E0D6986119953EF /* CountryPickerSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CountryPickerSwift-prefix.pch"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93F8B331EAE9A39AF0887B539873E5E7 /* SwiftCountryPicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SwiftCountryPicker.bundle; path = "MRCountryPicker-SwiftCountryPicker.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9AA70D78576519B45C70ADE1EF4AC7C4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9483D782FCC1AF004911659AAFDCF99D /* MRCountryPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MRCountryPicker.modulemap; sourceTree = "<group>"; };
 		9B201C8BCCF0C2FA6B944384630B9B2D /* Pods-EmergencyCall-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EmergencyCall-resources.sh"; sourceTree = "<group>"; };
-		A94E25B385268D031DB91B08E014C9F5 /* SwiftCountryPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftCountryPicker.swift; path = MRCountryPicker/Classes/SwiftCountryPicker.swift; sourceTree = "<group>"; };
+		A281B35A7EBA1C02A6A1FA125A8BB90F /* CountryView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CountryView.xib; path = CountryPicker/Classes/CountryView.xib; sourceTree = "<group>"; };
+		A43AD3158E2A71BC77CC3117D9C217E9 /* CountryPickerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CountryPickerSwift.modulemap; sourceTree = "<group>"; };
 		AD6EA24CF9ED24E31EF7CC2BF7BDD68B /* Pods-EmergencyCall-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EmergencyCall-acknowledgements.plist"; sourceTree = "<group>"; };
-		C0B39413F715C735E2CEAF6AE856944F /* MRCountryPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MRCountryPicker-prefix.pch"; sourceTree = "<group>"; };
+		AFC368C6E3E30CBF09F7FED2B24A541D /* SwiftCountryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftCountryView.swift; path = MRCountryPicker/Classes/SwiftCountryView.swift; sourceTree = "<group>"; };
+		BA3FF6347589D047CBC9D1CA6CFEF85F /* ResourceBundle-CountryPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CountryPicker-Info.plist"; sourceTree = "<group>"; };
+		BE57A18FD65DA5CCCBF310AAC530BC0A /* MRCountryPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MRCountryPicker-dummy.m"; sourceTree = "<group>"; };
+		C0135FA64DC25701B592C38FB2A79A18 /* CountryPickerSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CountryPickerSwift-dummy.m"; sourceTree = "<group>"; };
+		C2BB5750FEB794A265941CC41DC43CF8 /* Data */ = {isa = PBXFileReference; includeInIndex = 1; name = Data; path = MRCountryPicker/Assets/SwiftCountryPicker.bundle/Data; sourceTree = "<group>"; };
+		C3DF887F449BBA628417026F45C1AE94 /* MRCountryPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MRCountryPicker-prefix.pch"; sourceTree = "<group>"; };
+		CDC557C4C8DE205D9D7678FEA15DDC38 /* CountryPicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CountryPicker.bundle; path = "CountryPickerSwift-CountryPicker.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6CC4D9ABFCB2DF18AC85BDB6BB492C8 /* Pods-EmergencyCall-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EmergencyCall-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D8E6891A4E5291FE7BFBDE00A81E79F5 /* CountryPickerSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CountryPickerSwift-umbrella.h"; sourceTree = "<group>"; };
 		E013272169379BE19BF7655543A2444F /* Pods-EmergencyCall-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EmergencyCall-dummy.m"; sourceTree = "<group>"; };
-		F1CDD876461B1C04F21823CAE7C1C549 /* MRCountryPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MRCountryPicker-dummy.m"; sourceTree = "<group>"; };
+		E03E688EE32AB7B4133A621AAF6237DF /* CountryPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CountryPicker.framework; path = CountryPickerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAE50D8DE572DB3E9BBF4CC7DF0592EF /* MRCountryPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MRCountryPicker.xcconfig; sourceTree = "<group>"; };
+		F6D57D17E2B5FFFD282B2F0E28AC96B9 /* Pods_EmergencyCall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EmergencyCall.framework; path = "Pods-EmergencyCall.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7E016671069FFFCCF370D2474AB0492 /* Pods-EmergencyCall.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EmergencyCall.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		91EE72608951FCEF6E330EE1CDE42DC3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0097259D9C376EE06C03A1058A4467A3 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B170ABD28817E90ADBF84D4E32181072 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				AAB6BA361676131D70CE00915EC77CB3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5CB20CEAC4C353C798CBFE1563647E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,22 +128,81 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D18FFBE63BFCC38FAE907157542A3E63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				446EE3AEFDF2F15A124F995B27377983 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCE4EBBAC752E9A8CD3E991CC0084BDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56FC39F4F9DE9F6A296C93C3D095D774 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5DF4487668EBB42851E9F263FE248D87 /* Support Files */ = {
+		21E5AE37BFCE238C0FA43EA11A46A01F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9AA70D78576519B45C70ADE1EF4AC7C4 /* Info.plist */,
-				7DC8FCF0C3EC7F56795C65FC22AEA7DE /* MRCountryPicker.modulemap */,
-				31017B0470748BD59BA9D04026DBC390 /* MRCountryPicker.xcconfig */,
-				F1CDD876461B1C04F21823CAE7C1C549 /* MRCountryPicker-dummy.m */,
-				C0B39413F715C735E2CEAF6AE856944F /* MRCountryPicker-prefix.pch */,
-				1E845655F2D898FEAC8A91D9F23DD73E /* MRCountryPicker-umbrella.h */,
-				36AB6D64C57500B5A98996145A12C894 /* ResourceBundle-SwiftCountryPicker-Info.plist */,
+				43C96D5CAF3CC0C482FB6D61DFF55D94 /* CountryPickerSwift */,
+				641152E95465BEB135D4508398CE964C /* MRCountryPicker */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3DBDB1D4B6B10BB3003A860B287B83F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDC557C4C8DE205D9D7678FEA15DDC38 /* CountryPicker.bundle */,
+				E03E688EE32AB7B4133A621AAF6237DF /* CountryPicker.framework */,
+				577FEDFC6BFBAF6F0D15DAB841F0EBCE /* MRCountryPicker.framework */,
+				F6D57D17E2B5FFFD282B2F0E28AC96B9 /* Pods_EmergencyCall.framework */,
+				59225E16DE6D8331C6DD1CCB75A9F56B /* SwiftCountryPicker.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43C96D5CAF3CC0C482FB6D61DFF55D94 /* CountryPickerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				710AEB907F616F795C7E397795B60C86 /* CountryPicker.swift */,
+				3A603BA1809505B3AD1629D3E1A08A1B /* CountryView.swift */,
+				A281B35A7EBA1C02A6A1FA125A8BB90F /* CountryView.xib */,
+				B88809AB0EE8F3CDC97C0F2676B47A62 /* Resources */,
+				CEFE2D6BD8F4EBC994F0C0A586A080F8 /* Support Files */,
+			);
+			name = CountryPickerSwift;
+			path = CountryPickerSwift;
+			sourceTree = "<group>";
+		};
+		4FA180AAB5D59831265F5EE2D66EB7AF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				78B68459C6E736859670C983866DC157 /* Info.plist */,
+				9483D782FCC1AF004911659AAFDCF99D /* MRCountryPicker.modulemap */,
+				EAE50D8DE572DB3E9BBF4CC7DF0592EF /* MRCountryPicker.xcconfig */,
+				BE57A18FD65DA5CCCBF310AAC530BC0A /* MRCountryPicker-dummy.m */,
+				C3DF887F449BBA628417026F45C1AE94 /* MRCountryPicker-prefix.pch */,
+				219B55D214B38FBF305523B5C905D3C0 /* MRCountryPicker-umbrella.h */,
+				06424F91635A60F17E6BEC2CABCA9CDB /* ResourceBundle-SwiftCountryPicker-Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/MRCountryPicker";
+			sourceTree = "<group>";
+		};
+		517A725D4B63786AD9273B6333318FCD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C2BB5750FEB794A265941CC41DC43CF8 /* Data */,
+				626A2948A0337500255BEBD7167B70EA /* Images */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
@@ -118,13 +213,17 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		627B96EC2532CB4B4E0ABB582E0AEA8D /* Resources */ = {
+		641152E95465BEB135D4508398CE964C /* MRCountryPicker */ = {
 			isa = PBXGroup;
 			children = (
-				8262471237D0DF7EF23F6BE2F317F3E6 /* Data */,
-				592402FF49D0B1A8865B8D513990102D /* Images */,
+				2F4AB6D0A6180BF6B1486231202A8FA2 /* SwiftCountryPicker.swift */,
+				AFC368C6E3E30CBF09F7FED2B24A541D /* SwiftCountryView.swift */,
+				3EFFFF7A2C3115CEAB0A221EF00CEC4F /* SwiftCountryView.xib */,
+				517A725D4B63786AD9273B6333318FCD /* Resources */,
+				4FA180AAB5D59831265F5EE2D66EB7AF /* Support Files */,
 			);
-			name = Resources;
+			name = MRCountryPicker;
+			path = MRCountryPicker;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -132,23 +231,10 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				E73E0DE4FF041914FDC8E6DBCE137EB1 /* Pods */,
-				EA25D1A16B561CC64B6F9B30102792AE /* Products */,
+				21E5AE37BFCE238C0FA43EA11A46A01F /* Pods */,
+				3DBDB1D4B6B10BB3003A860B287B83F3 /* Products */,
 				A035448D652FF52F436C7C485A068592 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		80E311479F9A12A6A8A0EC16F0769C2A /* MRCountryPicker */ = {
-			isa = PBXGroup;
-			children = (
-				A94E25B385268D031DB91B08E014C9F5 /* SwiftCountryPicker.swift */,
-				69A7F42F717421DB50A508E56A6B418B /* SwiftCountryView.swift */,
-				0CEECD22C043D4A21EE1F02C8764AB1B /* SwiftCountryView.xib */,
-				627B96EC2532CB4B4E0ABB582E0AEA8D /* Resources */,
-				5DF4487668EBB42851E9F263FE248D87 /* Support Files */,
-			);
-			name = MRCountryPicker;
-			path = MRCountryPicker;
 			sourceTree = "<group>";
 		};
 		A035448D652FF52F436C7C485A068592 /* Targets Support Files */ = {
@@ -159,12 +245,36 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		B88809AB0EE8F3CDC97C0F2676B47A62 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				40D31AD5D5BE56522DB54AD22BC1FCCD /* Data */,
+				6505D1618CDC429393C524062E5B1C37 /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEFE2D6BD8F4EBC994F0C0A586A080F8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A43AD3158E2A71BC77CC3117D9C217E9 /* CountryPickerSwift.modulemap */,
+				63DF903AEFDF9909F4FF886D1EAE6BDF /* CountryPickerSwift.xcconfig */,
+				C0135FA64DC25701B592C38FB2A79A18 /* CountryPickerSwift-dummy.m */,
+				9049A339E00F54792E0D6986119953EF /* CountryPickerSwift-prefix.pch */,
+				D8E6891A4E5291FE7BFBDE00A81E79F5 /* CountryPickerSwift-umbrella.h */,
+				428E4890D17599042900284C747C3807 /* Info.plist */,
+				BA3FF6347589D047CBC9D1CA6CFEF85F /* ResourceBundle-CountryPicker-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CountryPickerSwift";
 			sourceTree = "<group>";
 		};
 		E3A3CE6FD8D0BD019FC4D7C1BEF2FDF1 /* Pods-EmergencyCall */ = {
@@ -185,24 +295,6 @@
 			path = "Target Support Files/Pods-EmergencyCall";
 			sourceTree = "<group>";
 		};
-		E73E0DE4FF041914FDC8E6DBCE137EB1 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				80E311479F9A12A6A8A0EC16F0769C2A /* MRCountryPicker */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		EA25D1A16B561CC64B6F9B30102792AE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				48FE36C9DAA20DF52E7B7990A6D849E9 /* MRCountryPicker.framework */,
-				373F1C4FF377F3DAF22BA8447BA52EA6 /* Pods_EmergencyCall.framework */,
-				93F8B331EAE9A39AF0887B539873E5E7 /* SwiftCountryPicker.bundle */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -214,11 +306,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		370C2D38E14D66D415E1288A859507EB /* Headers */ = {
+		55F59571F3F44B56CC56147CAEC7B6B4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B8DFBE94007DBFBFA98EAFEE16E60F5 /* Pods-EmergencyCall-umbrella.h in Headers */,
+				871F1295564B2DC8F04701C530EFC027 /* Pods-EmergencyCall-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9D9B971D2AA68AC6C39B2A69DF57F98 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EC9566670A495905D9177EF70E641AF /* CountryPickerSwift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,25 +341,26 @@
 			);
 			name = MRCountryPicker;
 			productName = MRCountryPicker;
-			productReference = 48FE36C9DAA20DF52E7B7990A6D849E9 /* MRCountryPicker.framework */;
+			productReference = 577FEDFC6BFBAF6F0D15DAB841F0EBCE /* MRCountryPicker.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		65D63BB98439519B088CBA2F56FDCF22 /* Pods-EmergencyCall */ = {
+		5B9A544927D9ED12AD3F9525E2E37D39 /* CountryPickerSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 605CCCA89D666D9E4AB4EB7D90678558 /* Build configuration list for PBXNativeTarget "Pods-EmergencyCall" */;
+			buildConfigurationList = 38FE797B3D87A6B248F218A2A5B8561F /* Build configuration list for PBXNativeTarget "CountryPickerSwift" */;
 			buildPhases = (
-				CFF294E5E93C217BBE0805455616C54A /* Sources */,
-				91EE72608951FCEF6E330EE1CDE42DC3 /* Frameworks */,
-				370C2D38E14D66D415E1288A859507EB /* Headers */,
+				901B5CC68C7CC8FE548158CC06D5DDCA /* Sources */,
+				D18FFBE63BFCC38FAE907157542A3E63 /* Frameworks */,
+				001F93BAA1F86801C79371CC61CFA709 /* Resources */,
+				A9D9B971D2AA68AC6C39B2A69DF57F98 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5D83F4FDE492CFB8222E3513FDAD2AFA /* PBXTargetDependency */,
+				291AD05882739C6C5DA2E191BCB62402 /* PBXTargetDependency */,
 			);
-			name = "Pods-EmergencyCall";
-			productName = "Pods-EmergencyCall";
-			productReference = 373F1C4FF377F3DAF22BA8447BA52EA6 /* Pods_EmergencyCall.framework */;
+			name = CountryPickerSwift;
+			productName = CountryPickerSwift;
+			productReference = E03E688EE32AB7B4133A621AAF6237DF /* CountryPicker.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A7C206C042D404F93B93041BC6094351 /* MRCountryPicker-SwiftCountryPicker */ = {
@@ -276,8 +377,44 @@
 			);
 			name = "MRCountryPicker-SwiftCountryPicker";
 			productName = "MRCountryPicker-SwiftCountryPicker";
-			productReference = 93F8B331EAE9A39AF0887B539873E5E7 /* SwiftCountryPicker.bundle */;
+			productReference = 59225E16DE6D8331C6DD1CCB75A9F56B /* SwiftCountryPicker.bundle */;
 			productType = "com.apple.product-type.bundle";
+		};
+		C0E5A851C6CE6EF8E4966C457FDE009D /* CountryPickerSwift-CountryPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 011C797A0AB39CB8E91A24A0AD8449FB /* Build configuration list for PBXNativeTarget "CountryPickerSwift-CountryPicker" */;
+			buildPhases = (
+				4A372CAD9E1C9EA63E34C55A5B2C2E23 /* Sources */,
+				B5CB20CEAC4C353C798CBFE1563647E6 /* Frameworks */,
+				F11FFE7CBA34679A31394403D67706D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CountryPickerSwift-CountryPicker";
+			productName = "CountryPickerSwift-CountryPicker";
+			productReference = CDC557C4C8DE205D9D7678FEA15DDC38 /* CountryPicker.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		D6AF90F951804F2D5686ECE4D945E910 /* Pods-EmergencyCall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B076C8D1FA9EC64B9D56AE6C4DAFB110 /* Build configuration list for PBXNativeTarget "Pods-EmergencyCall" */;
+			buildPhases = (
+				DDA61C0C9B212A7D1F9238B70FFE651F /* Sources */,
+				FCE4EBBAC752E9A8CD3E991CC0084BDA /* Frameworks */,
+				55F59571F3F44B56CC56147CAEC7B6B4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C893A667BFF3C3738E7A851CEDF7A469 /* PBXTargetDependency */,
+				E398671369B1BEDAB8A4759E86DFA438 /* PBXTargetDependency */,
+			);
+			name = "Pods-EmergencyCall";
+			productName = "Pods-EmergencyCall";
+			productReference = F6D57D17E2B5FFFD282B2F0E28AC96B9 /* Pods_EmergencyCall.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -296,18 +433,28 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = EA25D1A16B561CC64B6F9B30102792AE /* Products */;
+			productRefGroup = 3DBDB1D4B6B10BB3003A860B287B83F3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				5B9A544927D9ED12AD3F9525E2E37D39 /* CountryPickerSwift */,
+				C0E5A851C6CE6EF8E4966C457FDE009D /* CountryPickerSwift-CountryPicker */,
 				4F0837541784AB173CB811F2D4D93865 /* MRCountryPicker */,
 				A7C206C042D404F93B93041BC6094351 /* MRCountryPicker-SwiftCountryPicker */,
-				65D63BB98439519B088CBA2F56FDCF22 /* Pods-EmergencyCall */,
+				D6AF90F951804F2D5686ECE4D945E910 /* Pods-EmergencyCall */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		001F93BAA1F86801C79371CC61CFA709 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57FACD589B336C0E5FC8F687DF65E538 /* CountryPicker.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		35D0F330A1D7E63524907EEB201A06EE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -325,9 +472,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F11FFE7CBA34679A31394403D67706D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EB579FACF51C8E9262C550520B417B3 /* Data in Resources */,
+				82B1AFADFB310B7F7DA6F4BB56791065 /* Images in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4A372CAD9E1C9EA63E34C55A5B2C2E23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7B0578BCE561926A6A8D80637BCC6622 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -339,11 +502,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CFF294E5E93C217BBE0805455616C54A /* Sources */ = {
+		901B5CC68C7CC8FE548158CC06D5DDCA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E9BB8EDC7FBEEAF43C6333B57A57AF0 /* Pods-EmergencyCall-dummy.m in Sources */,
+				DF93149F959F779B2F7AE50E8EAD1C26 /* CountryPicker.swift in Sources */,
+				949E8A7CFA24E8186291DF7F69E13C54 /* CountryPickerSwift-dummy.m in Sources */,
+				72BDBC5C3293B4AF0B121E9FD27E4FD1 /* CountryView.swift in Sources */,
+				7A2505CE706504238316375E3AAE528A /* CountryView.xib in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA61C0C9B212A7D1F9238B70FFE651F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26BF5AF9A3C535B0D3145703B8ED7A8D /* Pods-EmergencyCall-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,104 +531,52 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		291AD05882739C6C5DA2E191BCB62402 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CountryPickerSwift-CountryPicker";
+			target = C0E5A851C6CE6EF8E4966C457FDE009D /* CountryPickerSwift-CountryPicker */;
+			targetProxy = DC6774386D49D019B6588977C84D0F41 /* PBXContainerItemProxy */;
+		};
 		43ADDC57A045EF31A421B8E06ADC3715 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "MRCountryPicker-SwiftCountryPicker";
 			target = A7C206C042D404F93B93041BC6094351 /* MRCountryPicker-SwiftCountryPicker */;
 			targetProxy = 780F5ED0CC12DEEAEB624526B733A01C /* PBXContainerItemProxy */;
 		};
-		5D83F4FDE492CFB8222E3513FDAD2AFA /* PBXTargetDependency */ = {
+		C893A667BFF3C3738E7A851CEDF7A469 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CountryPickerSwift;
+			target = 5B9A544927D9ED12AD3F9525E2E37D39 /* CountryPickerSwift */;
+			targetProxy = 552D0465D5C46C72D01884CC7363C9A0 /* PBXContainerItemProxy */;
+		};
+		E398671369B1BEDAB8A4759E86DFA438 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MRCountryPicker;
 			target = 4F0837541784AB173CB811F2D4D93865 /* MRCountryPicker */;
-			targetProxy = A4F18465E08A0FC990702507EEF7256B /* PBXContainerItemProxy */;
+			targetProxy = 39A71A6EA6F1B8759619054945326A29 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		05DD9369ABFAF94510E853245B43E29E /* Release */ = {
+		2A756FA7D194F32B7494294409EF1E82 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A543E99FC035853AC08A919059F9B66 /* Pods-EmergencyCall.release.xcconfig */;
+			baseConfigurationReference = 63DF903AEFDF9909F4FF886D1EAE6BDF /* CountryPickerSwift.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-EmergencyCall/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-EmergencyCall/Pods-EmergencyCall.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CountryPickerSwift";
+				INFOPLIST_FILE = "Target Support Files/CountryPickerSwift/ResourceBundle-CountryPicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = CountryPicker;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		1478C966E6E708EC5856B85C8B0BD4BE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A1C61190479A5E00CEA016279116BA5 /* Pods-EmergencyCall.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-EmergencyCall/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-EmergencyCall/Pods-EmergencyCall.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
 		6030CA77CD0EDCD795EF536935FE4AFC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 31017B0470748BD59BA9D04026DBC390 /* MRCountryPicker.xcconfig */;
+			baseConfigurationReference = EAE50D8DE572DB3E9BBF4CC7DF0592EF /* MRCountryPicker.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -552,6 +674,46 @@
 			};
 			name = Debug;
 		};
+		6E5B74D272D2CD702F86782586B0EF4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A543E99FC035853AC08A919059F9B66 /* Pods-EmergencyCall.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EmergencyCall/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EmergencyCall/Pods-EmergencyCall.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		703082A85162812D3B777E668767AD25 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -610,9 +772,98 @@
 			};
 			name = Release;
 		};
+		937245D18E9A9247B7088E9BDBF2F3A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63DF903AEFDF9909F4FF886D1EAE6BDF /* CountryPickerSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CountryPickerSwift/CountryPickerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CountryPickerSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CountryPickerSwift/CountryPickerSwift.modulemap";
+				PRODUCT_MODULE_NAME = CountryPicker;
+				PRODUCT_NAME = CountryPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9B07B2F6711E8B074039E438FB0FE8AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63DF903AEFDF9909F4FF886D1EAE6BDF /* CountryPickerSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CountryPickerSwift/CountryPickerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CountryPickerSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CountryPickerSwift/CountryPickerSwift.modulemap";
+				PRODUCT_MODULE_NAME = CountryPicker;
+				PRODUCT_NAME = CountryPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9C6D7F9D1EE6BD3C968E49D9D8D33A1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63DF903AEFDF9909F4FF886D1EAE6BDF /* CountryPickerSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CountryPickerSwift";
+				INFOPLIST_FILE = "Target Support Files/CountryPickerSwift/ResourceBundle-CountryPicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = CountryPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		AC3AEEC0B9E0EDE30B63CEC3513B5628 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 31017B0470748BD59BA9D04026DBC390 /* MRCountryPicker.xcconfig */;
+			baseConfigurationReference = EAE50D8DE572DB3E9BBF4CC7DF0592EF /* MRCountryPicker.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MRCountryPicker";
@@ -626,9 +877,49 @@
 			};
 			name = Release;
 		};
+		B05E390617F51E317410F9C7BA6E0B0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A1C61190479A5E00CEA016279116BA5 /* Pods-EmergencyCall.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EmergencyCall/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EmergencyCall/Pods-EmergencyCall.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		C3BC52009DE5D83437450A09AB50DD50 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 31017B0470748BD59BA9D04026DBC390 /* MRCountryPicker.xcconfig */;
+			baseConfigurationReference = EAE50D8DE572DB3E9BBF4CC7DF0592EF /* MRCountryPicker.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -664,7 +955,7 @@
 		};
 		D36FA2FB249A1280CA17AB6B1E4CF4D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 31017B0470748BD59BA9D04026DBC390 /* MRCountryPicker.xcconfig */;
+			baseConfigurationReference = EAE50D8DE572DB3E9BBF4CC7DF0592EF /* MRCountryPicker.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MRCountryPicker";
@@ -681,6 +972,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		011C797A0AB39CB8E91A24A0AD8449FB /* Build configuration list for PBXNativeTarget "CountryPickerSwift-CountryPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A756FA7D194F32B7494294409EF1E82 /* Debug */,
+				9C6D7F9D1EE6BD3C968E49D9D8D33A1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		26E8CFEA13004D50B44E3A20D52295DD /* Build configuration list for PBXNativeTarget "MRCountryPicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -699,11 +999,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		605CCCA89D666D9E4AB4EB7D90678558 /* Build configuration list for PBXNativeTarget "Pods-EmergencyCall" */ = {
+		38FE797B3D87A6B248F218A2A5B8561F /* Build configuration list for PBXNativeTarget "CountryPickerSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1478C966E6E708EC5856B85C8B0BD4BE /* Debug */,
-				05DD9369ABFAF94510E853245B43E29E /* Release */,
+				9B07B2F6711E8B074039E438FB0FE8AF /* Debug */,
+				937245D18E9A9247B7088E9BDBF2F3A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -713,6 +1013,15 @@
 			buildConfigurations = (
 				D36FA2FB249A1280CA17AB6B1E4CF4D6 /* Debug */,
 				AC3AEEC0B9E0EDE30B63CEC3513B5628 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B076C8D1FA9EC64B9D56AE6C4DAFB110 /* Build configuration list for PBXNativeTarget "Pods-EmergencyCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B05E390617F51E317410F9C7BA6E0B0C /* Debug */,
+				6E5B74D272D2CD702F86782586B0EF4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
