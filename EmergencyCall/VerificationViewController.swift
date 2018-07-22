@@ -7,9 +7,11 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class VerificationViewController: UIViewController {
 
+    @IBOutlet weak var txtfield: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -22,6 +24,22 @@ class VerificationViewController: UIViewController {
     }
     
 
+   
+    @IBAction func verifiedpressed(_ sender: Any) {
+        let credential = PhoneAuthProvider.provider().credential(
+            withVerificationID: verification_id,
+            verificationCode: txtfield.text!)
+        Auth.auth().signInAndRetrieveData(with: credential) { (authResult, error) in
+            if let error = error {
+                print(error)
+                
+            } else {
+                self.performSegue(withIdentifier: "toSignup", sender: nil)
+                
+            }
+            
+        }
+    }
     /*
     // MARK: - Navigation
 

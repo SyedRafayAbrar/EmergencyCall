@@ -6,6 +6,12 @@ target 'EmergencyCall' do
   use_frameworks!
 
   # Pods for EmergencyCall
-pod 'MRCountryPicker'
-pod 'CountryPickerSwift'
+pod 'Firebase/Auth'
+pod 'Firebase/Database'
+ pod 'SwiftKeychainWrapper'
+pod 'IQKeyboardManagerSwift'
+ pod 'GoogleMaps'
+  pod 'GooglePlaces'
+pod 'SwiftyJSON'
+pod 'Alamofire'
 end

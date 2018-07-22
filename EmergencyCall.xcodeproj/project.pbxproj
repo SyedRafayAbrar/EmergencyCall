@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C89EAD9A20AEE5250071B632 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C89EAD9920AEE5250071B632 /* GoogleService-Info.plist */; };
 		C8C83C2020AD5644006C8C8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C83C1F20AD5644006C8C8F /* AppDelegate.swift */; };
 		C8C83C2220AD5644006C8C8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C83C2120AD5644006C8C8F /* ViewController.swift */; };
 		C8C83C2520AD5644006C8C8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8C83C2320AD5644006C8C8F /* Main.storyboard */; };
@@ -23,12 +24,14 @@
 		C8D1554320AEA0ED006CA643 /* VerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D1554220AEA0ED006CA643 /* VerificationViewController.swift */; };
 		C8D1554520AEA313006CA643 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D1554420AEA313006CA643 /* MapViewController.swift */; };
 		C8D1554720AEA4B0006CA643 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D1554620AEA4B0006CA643 /* CoreLocation.framework */; };
+		C8D1554920AEB8A3006CA643 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D1554820AEB8A3006CA643 /* MapKit.framework */; };
 		D99B6CDC78E9AEAE0911BDC6 /* Pods_EmergencyCall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EC823EFF1D882E7776D4319 /* Pods_EmergencyCall.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1EC823EFF1D882E7776D4319 /* Pods_EmergencyCall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmergencyCall.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		583136DC1F6369C6B0CF3F93 /* Pods-EmergencyCall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmergencyCall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EmergencyCall/Pods-EmergencyCall.debug.xcconfig"; sourceTree = "<group>"; };
+		C89EAD9920AEE5250071B632 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C8C83C1C20AD5644006C8C8F /* EmergencyCall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmergencyCall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8C83C1F20AD5644006C8C8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C8C83C2120AD5644006C8C8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		C8D1554220AEA0ED006CA643 /* VerificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationViewController.swift; sourceTree = "<group>"; };
 		C8D1554420AEA313006CA643 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		C8D1554620AEA4B0006CA643 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C8D1554820AEB8A3006CA643 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		CC34349CF535BCB3E2CC647C /* Pods-EmergencyCall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmergencyCall.release.xcconfig"; path = "Pods/Target Support Files/Pods-EmergencyCall/Pods-EmergencyCall.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,6 +60,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8D1554720AEA4B0006CA643 /* CoreLocation.framework in Frameworks */,
+				C8D1554920AEB8A3006CA643 /* MapKit.framework in Frameworks */,
 				D99B6CDC78E9AEAE0911BDC6 /* Pods_EmergencyCall.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -66,6 +71,7 @@
 		0DBBD7898B3038B986C7CE53 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C8D1554820AEB8A3006CA643 /* MapKit.framework */,
 				C8D1554620AEA4B0006CA643 /* CoreLocation.framework */,
 				1EC823EFF1D882E7776D4319 /* Pods_EmergencyCall.framework */,
 			);
@@ -108,7 +114,6 @@
 				C8C83C2120AD5644006C8C8F /* ViewController.swift */,
 				C8D1553620AD9693006CA643 /* IsoCountries.swift */,
 				C8D1553720AD9693006CA643 /* IsoCountryCodes.swift */,
-				C8C83C3920AD71D3006C8C8F /* Countrycell */,
 				C8C83C2320AD5644006C8C8F /* Main.storyboard */,
 				C8D1554420AEA313006CA643 /* MapViewController.swift */,
 				C8D1554220AEA0ED006CA643 /* VerificationViewController.swift */,
@@ -117,6 +122,8 @@
 				C8C83C2620AD5645006C8C8F /* Assets.xcassets */,
 				C8C83C2820AD5645006C8C8F /* LaunchScreen.storyboard */,
 				C8C83C2B20AD5645006C8C8F /* Info.plist */,
+				C89EAD9920AEE5250071B632 /* GoogleService-Info.plist */,
+				C8C83C3920AD71D3006C8C8F /* Countrycell */,
 			);
 			path = EmergencyCall;
 			sourceTree = "<group>";
@@ -142,6 +149,7 @@
 				C8C83C1920AD5644006C8C8F /* Frameworks */,
 				C8C83C1A20AD5644006C8C8F /* Resources */,
 				2EB65268EBD5F48E6C0C04C2 /* [CP] Embed Pods Frameworks */,
+				96127CB9DCEDFD06809E732B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,6 +172,14 @@
 				TargetAttributes = {
 					C8C83C1B20AD5644006C8C8F = {
 						CreatedOnToolsVersion = 9.3.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -192,6 +208,7 @@
 			files = (
 				C8C83C3820AD6FD3006C8C8F /* CountryTableViewCell.xib in Resources */,
 				C8C83C2A20AD5645006C8C8F /* LaunchScreen.storyboard in Resources */,
+				C89EAD9A20AEE5250071B632 /* GoogleService-Info.plist in Resources */,
 				C8C83C2720AD5645006C8C8F /* Assets.xcassets in Resources */,
 				C8C83C2520AD5644006C8C8F /* Main.storyboard in Resources */,
 			);
@@ -207,13 +224,25 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-EmergencyCall/Pods-EmergencyCall-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CountryPickerSwift/CountryPicker.framework",
-				"${BUILT_PRODUCTS_DIR}/MRCountryPicker/MRCountryPicker.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CountryPicker.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MRCountryPicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -236,6 +265,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96127CB9DCEDFD06809E732B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EmergencyCall/Pods-EmergencyCall-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EmergencyCall/Pods-EmergencyCall-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

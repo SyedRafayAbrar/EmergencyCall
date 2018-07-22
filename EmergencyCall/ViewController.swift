@@ -7,15 +7,21 @@
 //
 
 import UIKit
+import MapKit
 
 class ViewController: UIViewController {
-
     @IBOutlet weak var continueWith: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         continueWith.layer.masksToBounds = true
         continueWith.layer.cornerRadius = 4
+       
         // Do any additional setup after loading the view, typically from a nib.
+    }
+   
+    override func viewDidAppear(_ animated: Bool) {
+
+      
     }
 
     override func didReceiveMemoryWarning() {

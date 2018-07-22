@@ -7,6 +7,12 @@
 //
 
 import UIKit
+import Firebase
+import IQKeyboardManagerSwift
+import SwiftKeychainWrapper
+import GoogleMaps
+import GooglePlaces
+import MapKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,8 +21,38 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+       
+        IQKeyboardManager.sharedManager().enable = true
+        GMSServices.provideAPIKey("AIzaSyAH9fC8LHuE2KDT0B5Dikk-Vh1gBtInG7c")
+        GMSPlacesClient.provideAPIKey("AIzaSyAH9fC8LHuE2KDT0B5Dikk-Vh1gBtInG7c")
+        
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        var initialViewController: UIViewController
+        
+        print(KEY_UID)
+        if let _ = KeychainWrapper.defaultKeychainWrapper.string(forKey: KEY_UID)//your condition if user is already logged in or not
+        {
+            // if already logged in then redirect to MainViewController
+            
+            
+            print("if Chal gaya")
+            initialViewController = mainStoryboard.instantiateViewController(withIdentifier: "toHome") as! MapViewController // 'MainController' is the storyboard id of MainViewController
+        }
+        else
+        {
+            print("else Chal gaya")
+            //If not logged in then show LoginViewController
+            initialViewController = mainStoryboard.instantiateViewController(withIdentifier: "toosignin") as! ViewController // 'LoginController' is the storyboard id of LoginViewController
+            
+        }
+        self.window?.rootViewController = initialViewController
+        
+        self.window?.makeKeyAndVisible()
+        
+        
         // Override point for customization after application launch.
-    
+        FirebaseApp.configure()
         return true
     }
 
@@ -41,7 +77,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
-
+    
+  
 }
 
